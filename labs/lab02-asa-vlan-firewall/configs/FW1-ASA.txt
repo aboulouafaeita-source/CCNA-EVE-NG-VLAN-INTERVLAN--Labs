@@ -39,3 +39,9 @@ interface GigabitEthernet0/1.60
  ip address 192.168.60.1 255.255.255.0
 
 route outside 0.0.0.0 0.0.0.0 10.255.255.1
+
+policy-map global_policy
+ class inspection_default
+  inspect icmp
+
+service-policy global_policy global
