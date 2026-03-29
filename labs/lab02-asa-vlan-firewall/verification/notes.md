@@ -1,10 +1,12 @@
 # Verification Notes
 
-Files to upload:
-- show-vlan.png
-- show-interfaces-trunk.png
-- show-route-asa.png
-- show-ip-route-r1.png
-- ping-pc1-to-pc3.png
-- ping-pc1-to-r1.png
+Successful testing confirmed:
+- VLAN creation and correct port assignment
+- 802.1Q trunk operation between SW1-CORE and FW1
+- ASA routing and internal VLAN gateways
+- Static routing on R1-ISP
+- Inter-VLAN communication between internal hosts
+- Upstream reachability from an internal host to R1-ISP
+
+Verification evidence is available in this folder.
 Successful testing confirmed inter-VLAN communication and upstream reachability from internal hosts to the ISP router.
