@@ -35,3 +35,14 @@ Each lab includes:
 
 ## Goal
 My goal is to build a practical networking portfolio that demonstrates hands-on lab work, structured documentation, and troubleshooting skills.
+
+## Topology
+![Lab Topology](topology.png)
+
+## Quick Verification Screenshots
+- [VLAN Table](verification/show-vlan.png)
+- [Trunk Status](verification/show-interfaces-trunk.png)
+- [ASA Routing Table](verification/show-route-asa.png)
+- [R1 Routing Table](verification/show-ip-route-r1.png)
+- [Ping PC1 to PC3](verification/ping-pc1-to-pc3.png)
+- [Ping PC1 to R1](verification/ping-pc1-to-r1.png)
